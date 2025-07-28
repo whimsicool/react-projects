@@ -1,3 +1,11 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+   align-items: center;
+  height: 100vh;
+  width: 100vw; 
+}
+
 .app {
   max-width: 500px;
   margin: 4rem auto;
@@ -41,7 +49,7 @@ h1 {
 .task-list {
   list-style: none;
   padding: 0;
-  
+
   color: black;
 }
 
